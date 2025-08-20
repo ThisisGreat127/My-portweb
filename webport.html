@@ -3,43 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Document</title>
-</head>
-<body style="background-image: url(tartan\ pink\ bg\ .jpg);"
-    <div>
     <style>
         h1{
             color:rgb(255, 255, 255);
             background-color: black;
         }
-        
-        .pt-10{
-            padding-top: 10px;
-        }
-        .pb-10{
-            padding-bottom: 10px;
-
-        }
-        .mt-10{
-            margin-top: 10px;
-        }
+        .pt-10{ padding-top: 10px; }
+        .pb-10{ padding-bottom: 10px; }
+        .mt-10{ margin-top: 10px; }
         .box{
             background-color: black;
             transition-duration: 2s;
         }
-        .box:hover{
-            background-color: rgb(255, 0, 157);
-        }
-        .p{
-            color: rgb(0, 17, 255);
+        .box:hover{ background-color: rgb(255, 0, 157); }
+        .p{ color: rgb(0, 17, 255); }
+
+        .container{
+            width: 80vw;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: row;    
+            flex-wrap: wrap;         
+            justify-content: center; 
+            gap: 20px;               
+            padding: 20px;
+            margin: auto;
         }
     </style>
+</head>
+<body style="background-image: url('tartan pink bg .jpg');">
     <center>
-    <a  href="https://www.instagram.com/daisyseq?igsh=MWFicXc4am90cDZlMw=="><h1 class ="pt-10 pb-10 box"> Welcome to my Profile!</h1></a>
-    <p class="mt-10 p">This is my portfolio come and see my amazing things!</p>
+        <a href="https://www.instagram.com/daisyseq?igsh=MWFicXc4am90cDZlMw==">
+            <h1 class="pt-10 pb-10 box">Welcome to my Profile!</h1>
+        </a>
+        <p class="mt-10 p">This is my portfolio come and see my amazing things!</p>
     </center>
 
-    <hr>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="proj.jpg" class="card-img-top" alt="..." height="150px">
+            <div class="card-body">
+                <h5 class="card-title">Project game 2d</h5>
+                <p class="card-text">Based on the code provided in the Canvas, the game is a “Falling Objects Game" built with Python and the Pygame library.
+Gameplay Overview
+The player controls a character name "Giselle" that must walk left and right to collect all point and win the game.
+</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="act2.jpg" class="card-img-top" alt="..." height="250px">
+            <div class="card-body">
+                <h5 class="card-title">Competition</h5>
+                <p class="card-text">I  being a school representative in the competition "งานศิลปหัตถกรรมนักเรียนครั้งที่ 71 ".</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="expri.jpg" class="card-img-top" alt="..."  height="300px">
+            <div class="card-body">
+                <h5 class="card-title"> Experience</h5>
+                <p class="card-text">I am a staff in Technology Department for school.</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
